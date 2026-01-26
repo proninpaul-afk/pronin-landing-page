@@ -13,19 +13,16 @@ export default function VideoTestimonial() {
           </p>
         </div>
 
-        <div className="aspect-video bg-neutral-200 rounded-xl flex items-center justify-center">
-          {/* 
-            ВСТАВЬ СЮДА ВИДЕО:
-            <video src="/video/oleg.mp4" controls className="w-full h-full rounded-xl" />
-            или iframe с YouTube/Vimeo
-          */}
-          <span className="text-neutral-400 text-lg">
-            Видео-отзыв клиента
-          </span>
+        <div className="aspect-video rounded-xl overflow-hidden bg-black">
+          <video
+            src="/oleg-feedback-subs.mp4"
+            controls
+            className="w-full h-full object-cover"
+          />
         </div>
 
         <div className="space-y-4 text-neutral-700 font-light text-lg">
-          <p><strong>Олег</strong>, CEO IT-компании</p>
+          <p><strong>Олег</strong>, тимлид IT-компании</p>
           <ul className="space-y-2">
             <li>— Переезд в другую страну, смена команды, рождение ребёнка</li>
             <li>— Высокий стресс и риск потери управляемости</li>
@@ -36,7 +33,7 @@ export default function VideoTestimonial() {
 
         <div className="pt-8 text-center">
           <a
-            href="#diagnostic"
+            href="#contact"
             className="inline-block px-8 py-4 border border-neutral-800 text-neutral-800 hover:bg-neutral-800 hover:text-white transition"
           >
             Записаться на диагностическую встречу
