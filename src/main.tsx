@@ -1,15 +1,16 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import './index.css';
 
-const root = document.getElementById('root')
+const rootElement = document.getElementById('root');
 
-if (!root) {
-  document.body.innerHTML = '<h1>ROOT NOT FOUND</h1>'
-} else {
-  ReactDOM.createRoot(root).render(
-    <div style={{ padding: 40 }}>
-      <h1>React работает</h1>
-      <p>Если ты это видишь — проблема внутри App</p>
-    </div>
-  )
+if (!rootElement) {
+  throw new Error('Root element not found');
 }
+
+ReactDOM.createRoot(rootElement).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
