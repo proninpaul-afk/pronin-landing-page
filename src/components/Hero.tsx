@@ -54,7 +54,7 @@ export default function Hero() {
           <div className="relative">
             <div className="relative overflow-hidden rounded-2xl shadow-sm">
               <img
-                src="/img_7010.jpg"
+                src="/public/img_7010.jpg"
                 alt="Павел Пронин"
                 className="w-full h-[420px] md:h-[520px] object-cover object-center"
                 loading="eager"
