@@ -1,7 +1,6 @@
 import Hero from './components/Hero';
 import WhyNow from './components/WhyNow';
 import Results from './components/Results';
-import VideoTestimonial from './components/VideoTestimonial';
 import Cases from './components/Cases';
 import About from './components/About';
 import Packages from './components/Packages';
@@ -14,7 +13,6 @@ function App() {
       <Hero />
       <WhyNow />
       <Results />
-      <VideoTestimonial />
       <Cases />
       <About />
       <Packages />
