@@ -15,7 +15,7 @@ export default function VideoTestimonial() {
 
         <div className="aspect-video rounded-xl overflow-hidden bg-black">
           <video
-            src="/oleg-feedback-subs.mp4"
+            src="/public/oleg-feedback-subs.mp4"
             controls
             className="w-full h-full object-cover"
           />
